@@ -28,6 +28,8 @@ pip install -r requirements.txt
 CURRATE_API_KEY=ваш_ключ_с_currate
 ```
 
+> ⚠️ В репозитории оставлен актуальный `.env` с тестовым ключом умышленно, чтобы упростить проверку. В продакшене создайте свой `.env` и держите ключи вне Git.
+
 Запустите сервис:
 ```bash
 uvicorn app.main:app --reload
